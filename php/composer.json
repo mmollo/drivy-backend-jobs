@@ -1,0 +1,22 @@
+{
+    "name": "mmollo/drivy-backend-jobs",
+    "description": "PHP implementation of Drivy Backend Job test",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Mallory Mollo",
+            "email": "mallory.mollo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DJB\\": "src"
+        }
+    },
+    "scripts":{
+        "test": "phpunit tests"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
