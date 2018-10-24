@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mmollo/drivy-backend-jobs#readme",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "date-diff": "^0.2.1"
   }
 }
